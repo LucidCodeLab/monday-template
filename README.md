@@ -12,7 +12,7 @@ This script is designed to automate the creation and renaming of directory struc
 
 ## Prerequisites
 
-- Node.js installed on your system.
+- [Node.js](https://nodejs.org/en/download) installed on your system.
 - [ngrok](https://ngrok.com/downloads/mac-os) installed and running on your system 
 - Have a Monday.com webhook that points to the ngrok URL
 - `fs-extra` package for file system operations.
