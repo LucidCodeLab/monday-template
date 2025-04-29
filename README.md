@@ -33,9 +33,10 @@ This script is designed to automate the creation and renaming of directory struc
    ```
 
 3. Replace placeholders in the script:
-    * Replace API KEY GOES HERE with your Monday.com API key.
-    * Replace Source Template Folder Path Goes Here with the path to your source template folder.
-    * Replace Destination Folder Path Goes Here with the path to your destination folder.
+    * Replace **API KEY GOES HERE** with your Monday.com API key.
+    * Replace **Source Template Folder Path Goes Here** with the path to your source template folder.
+    * Replace **Destination Folder Path Goes Here** with the path to your destination folder.
+    * Update script as needed to match Monday.com board structure and automation needs.
 
 ## Usage
 
@@ -52,3 +53,10 @@ This script is designed to automate the creation and renaming of directory struc
 3. Copy the forwarding address provided by ngrok and add it into your Monday automation as the Webhook URL
 
 4. You should now be able to update the Monday board and see the Automation run
+
+## Troubleshooting
+
+- **Permission Issues**: If you encounter permission errors when starting the server, try running the script with `sudo`.
+- **Invalid API Key**: Ensure that the Monday.com API key is valid and has the necessary permissions to access the board.
+- **ngrok Issues**: If ngrok fails to start, ensure it is installed correctly and that no other process is using port 80.
+- **Webhook Not Triggering**: Verify that the ngrok forwarding URL is correctly set as the webhook URL in your Monday.com automation.
