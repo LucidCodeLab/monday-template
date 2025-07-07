@@ -23,7 +23,7 @@ This script is designed to automate the creation and renaming of directory struc
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/monday-template.git
+   git clone https://github.com/LucidCodeLab/monday-template
    cd monday-template
    ```
 
